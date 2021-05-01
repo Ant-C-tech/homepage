@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - 11.13.0
+  before_install: gem install bundler --pre
 script:
   - npm install --global workbox-cli
   - workbox generateSW workbox-config.js
