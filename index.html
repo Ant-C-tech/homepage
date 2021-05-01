@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
 
 <head>
   <meta charset="UTF-8" />
   <title>Résumé</title>
   <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css" />
+  <style>
+    a {
+      color: #ff6b08;
+    }
+  </style>
 </head>
 
 <body>
-  <main>
+  <main style="background-color: #edeff2;">
     <article>
-      <div class="page" style="border-color: midnightblue">
+      <div class="page" style="border-color: #1e2939">
         <div class="stackable grid">
           <div class="row">
             <div class="three wide center aligned column">
-              <!-- Avatar -->
+              <div class="avatar-wrapper">
+                <object style="border-radius: 50%;" class="avatar" data="./photo.jpg" role="img" aria-label="My profile picture"></object>
+              </div>
             </div>
             <div class="thirteen wide column">
               <div class="stackable grid">
@@ -42,7 +49,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="skype:Anton Chyvikov" rel="author" class="skype">
+                      <a href="skype:Anton_Chyvikov" rel="author" class="skype">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                           <path d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z" />
                         </svg>
@@ -64,7 +71,7 @@
                   <div class="divider"></div>
                 </div>
                 <div class="sixteen wide column">
-                  <h2>Résumé</h2>
+                  <h2 style="color: #1e2939">Résumé</h2>
                   <p>
                     I'm an detail-oriented Software Engineer (Front-end / JavaScript) who seeking an
                     entry-level position with Company to use my skills in coding, troubleshooting
@@ -78,7 +85,7 @@
           </div>
           <div class="row">
             <div class="sixteen wide column">
-              <div class="fat divider"></div>
+              <div style="border-top:4px solid #1e2939" class="fat divider"></div>
             </div>
           </div>
           <div class="row">
@@ -88,7 +95,7 @@
               <ul class="timeline">
                 <li>
                   <p>
-                    October 2013 &ndash; April 2020</em>
+                    <em>October 2013 &ndash; April 2020</em>
                   </p>
                   <p>
                     <strong>Lead engineer</strong> at
@@ -107,12 +114,10 @@
                       assemblies.
                     </li>
                     <li>
-                      development of related calculations for the production of machines and
-                      assemblies.
+                      development of related calculations.
                     </li>
                     <li>
-                      development of textual documentation for the production of machines and
-                      assemblies.
+                      development of textual documentation.
                     </li>
                   </ul>
                 </li>
@@ -159,50 +164,523 @@
                   </p>
                 </li>
               </ul>
-              <h3>Higher Education</h3>
+              <h3>Pet projects</h3>
+              <h6>If interested in helping any of them, don’t hesitate to email</h6>
               <ul class="timeline">
-                <li>
-                  <p>
-                    <em>September 2000 &ndash; June 2005</em>
-                  </p>
-                  <p>
-                    <strong>Physics teacher</strong> at
+                <li class="details">
+                  <input type="checkbox" id="Ask me anything">
+                  <label for="Ask me anything" class="summary">
+                    <strong>Ask me anything</strong><br>
+                    <em>April 2021</em>
+                  </label>
+                  <div>
+                    <p>
+                      Training project created as part of the practical exercises of the Kottans Frontend 2021 course, YDKJS module, "Asynchronous functions" section. This project is a simple chat "question - answer". Database and Authentication - Firebase Realtime Database. Sorting of messages - by date. Each visitor to the chat has the ability to view all messages in the chat. After registration, the user has the opportunity to answer the questions of others, ask his own question, delete or edit any of his previous activities.
+                    </p>
                     <strong>
-                      <a href="http://www.slavdpu.dn.ua/" rel="external">
-                        State Higher Educational Institution Donbass State Teachers' Training
-                        University (DSTTU)
+                      <a href="https://ant-c-tech.github.io/ask-me-anything/" target="_blank" rel="external">
+                        Demo
                       </a>
                     </strong>
-                  </p>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/ask-me-anything" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
                 </li>
-              </ul>
-              <h3>Web Development Education</h3>
-              <ul class="timeline">
-                <li>
-                  <p>
-                    <em>November 2020 &ndash; Present</em>
-                  </p>
-                  <p>
-                    <strong>Kottans Frontend 2021</strong> at
+                <li class="details">
+                  <input type="checkbox" id="Cinema">
+                  <label for="Cinema" class="summary">
+                    <strong>Cinema Application</strong><br>
+                    <em>January 2021</em>
+                  </label>
+                  <div>
+                    <p>
+                      This project is a mobile application called as "Cinema Application" used for booking a cinema ticket online. The application provides many options for the cinema customer to facilitate the process of online searching and booking a cinema ticket for a movie. Furthermore, it helps the cinema owner to manage his cinema and customize the available movies.
+                    </p>
                     <strong>
-                      <a href="https://kottans.org/" rel="external">
-                        Kottans
+                      <a href="https://ant-c-tech.github.io/Cinema-Application/" target="_blank" rel="external">
+                        Demo
                       </a>
                     </strong>
-                  </p>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Cinema-Application" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
                 </li>
-                <li>
-                  <p>
-                    <em>April 2020 &ndash; September 2020</em>
-                  </p>
-                  <p>
-                    <strong>Advanced Front-End Web Developer</strong> at
+                <li class="details">
+                  <input type="checkbox" id="Friends App">
+                  <label for="Friends App" class="summary">
+                    <strong>Friends App</strong><br>
+                    <em>December 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      A tiny social friends' search page with users cards, search, sorting and filtering of them by age, name etc. with Random User API :) With this app You can:
+                      - see cards list of users on the page, cards are pretty styled with user photo, name, age, phone number.
+                      - searching by typing name in search input and see immediately filtering on the page sorting cards by name/age in A-Z/Z-A ways filtering friends by age, by name, whatever you want else options
+                      - see fancy icons and cool design with shadows, gradients etc.
+                    </p>
                     <strong>
-                      <a href="https://itukraine.org.ua/en/start-of-it-nation-an-educational-programme.html" rel="external">
-                        Educational Programme “IT nation”
+                      <a href="https://ant-c-tech.github.io/friends_app/" target="_blank" rel="external">
+                        Demo
                       </a>
                     </strong>
-                  </p>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/friends_app" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Frogger">
+                  <label for="Frogger" class="summary">
+                    <strong>Frogger Game</strong><br>
+                    <em>December 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Games have a lot of objects, and those objects do a lot of different things; but sometimes those objects do some very similar things as well. This creates a great opportunity to practice object-oriented programming, an important programming paradigm that influences your application architecture and provides performance optimizations.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/frontend-nanodegree-arcade-game/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/frontend-nanodegree-arcade-game/tree/frogger-game-solution" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Memory-Pair">
+                  <label for="Memory-Pair" class="summary">
+                    <strong>Memory-Pair Game</strong><br>
+                    <em>December 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Memory - Pair Game — a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. The game ends when the last pair has been picked up. Now enjoy it with Hiragana!
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Memory-Pair-Game/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Memory-Pair-Game" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Ukraine">
+                  <label for="Ukraine" class="summary">
+                    <strong>What do you know about Ukraine?</strong><br>
+                    <em>November 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Planning individual trips makes not as much fun as travelling. Until now. Enjoy even planning your trip around Ukraine or just test your knowledge of Ukraine, from its twentieth century history to its current relations with Russia.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/-7-Document-Object-Model-Practice/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/-7-Document-Object-Model-Practice" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="NoJSPopUp">
+                  <label for="NoJSPopUp" class="summary">
+                    <strong>NoJSPopUp</strong><br>
+                    <em>November 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      The goal of this task is to practice coding HTML & CSS from mockup. No JavaScript, only my knowledge of HTML & CSS and new previously unknown features.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/-5-HTML-CSS-Practice/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/-5-HTML-CSS-Practice" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Air">
+                  <label for="Air" class="summary">
+                    <strong>Air Quality</strong><br>
+                    <em>October 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      BOOTCAMP IT nation is an intensive training course in the chosen specialty, which includes specialized webinars, mentoring, independent work to maximize your skills. But you have to be ready for intensive work!
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/ITnation-bootcamp-landing/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/ITnation-bootcamp-landing" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="scheduling">
+                  <label for="scheduling" class="summary">
+                    <strong>Personal scheduling service</strong><br>
+                    <em>October 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Have you ever spent more time scheduling a meeting than in the meeting itself? "Personal scheduling service" is a free web and mobile calendar based on FullCalendar Library in Ukrainian that lets you keep track of your own events. It's the ideal tool for managing personal and professional schedules. It is both simple to use and very powerful. "Personal scheduling service's" interface decorated with Material Design Palette's organic colors, but it hides a lot of powerful features. Your busy life deserves this.
+
+                      You can change whatever you want in every planned events - you have just click on the certain event and work with dialog box of it to do it fast. Or you can work with manage panel of "Personal scheduling service" on the bottom to filter, sort, delete or edit your planned events.
+
+                      Also you can add specify the category of each event. By defaul are offered three category: "Особиста подія", "Робоча подія" та "Важливо!" with two different color decorate, but you can create your own one. As a result you can sort your events by category. This way you could make a calendar for work, a calendar for home and a calendar for your local bridge club without these worlds colliding.
+
+                      If you're not using "Personal scheduling service", you probably should be. We have obviously put a great deal of thought into it, and made a tool written by people who actually use it. This calendar makes scheduling tasks so easy, you'll wonder what you did without it.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Personal-sheduling-service/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Personal-sheduling-service" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Animate">
+                  <label for="Animate" class="summary">
+                    <strong>Animate.css Slider</strong><br>
+                    <em>September 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Create a beautiful responsive carousel slider. Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints. No matter if you are a beginner or an advanced user, starting with "Animate.css Slider" is easy - just-add-water CSS animations. Almost all options are responsive and include very intuitive breakpoints settings.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/animateCssSlider-jQuery-plugin-/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/animateCssSlider-jQuery-plugin-" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Encrypt">
+                  <label for="Encrypt" class="summary">
+                    <strong>Text Encrypt</strong><br>
+                    <em>July 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      The app encrypts plain text and decrypts encrypted text. App allows to make the encrypted/decrypted text easily for next sending with any messenger. As a key for encrypt you can use your own text. We recommend using some text with length from 150 up to 9999 symbols. You have to use the key-text on language, which you will write your message. For example we offered quote from Wiki (for encrypt messages in English). By default we will use this key-text: "One of the earliest forms of encryption is symbol replacement, which was first found in the tomb of Khnumhotep II, who lived in 1900 B.C. Egypt. Symbol replacement encryption is “non-standard,” which means that the symbols require a cipher or key to understand. This type of early encryption was used throughout Ancient Greece and Rome for military purposes."
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Text-Encrypt/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Text-Encrypt" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="E-commerce">
+                  <label for="E-commerce" class="summary">
+                    <strong>"IT Nation" E-commerce</strong><br>
+                    <em>September 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Bootstrap e-commerce is a collection of professionally designed, ready to use, fully responsive HTML and CSS library which you can build any e-commerce project very easily. Get started by checking out our components and build responsive e-commerce projects on the web. You can develop online shops, marketplaces and booking websites with ready-made HTML, CSS, and JS
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Codifun-exam-bootstrap-e-commerce/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Codifun-exam-bootstrap-e-commerce" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="SimplePopUp">
+                  <label for="SimplePopUp" class="summary">
+                    <strong>SimplePopUp</strong><br>
+                    <em>August 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Bend it to create any type of popup, modal, or content overlay for your website. Create unlimited popups of every type you need and customize every facet of each of your popups from theme to position. No matter if you are a beginner or an advanced user, starting with Simple PopUp is easy.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/simplePopUp/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/simplePopUp" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="SimpleSlider 2.1">
+                  <label for="SimpleSlider 2.1" class="summary">
+                    <strong>SimpleSlider 2.1</strong><br>
+                    <em>August 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Create a beautiful responsive carousel slider. Almost all options are responsive and include very intuitive breakpoints settings. No matter if you are a beginner or an advanced user, starting with SimpleSlider 2.1 is easy.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/simpleSlider_2_1/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/simpleSlider_2_1" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="SimpleSlider 2.0">
+                  <label for="SimpleSlider 2.0" class="summary">
+                    <strong>SimpleSlider 2.0</strong><br>
+                    <em>August 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Create a beautiful responsive carousel slider. Almost all options are responsive and include very intuitive breakpoints settings. No matter if you are a beginner or an advanced user, starting with SimpleSlider 2.0 is easy.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/simpleSlider-2.0/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/simpleSlider-2.0" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="KidsCalc">
+                  <label for="KidsCalc" class="summary">
+                    <strong>KidsCalc</strong><br>
+                    <em>July 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Calculators are widely used all over the world. In school, everyone needs to have their own pocket calculator. And these days, most calculators are apps found in cellphones, tablets, and computers. People use them daily to compute numbers. Kids have easy access to them to solve simple and complex math problems.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/KidsCalc/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/KidsCalc" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Known">
+                  <label for="Known" class="summary">
+                    <strong>Known</strong><br>
+                    <em>July 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Simple landing with custom design, made according to "IT Nation" practical task.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Codifun-exam-landing/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Codifun-exam-landing" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="SimpleSlider">
+                  <label for="SimpleSlider" class="summary">
+                    <strong>SimpleSlider</strong><br>
+                    <em>July 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Simple slider with custom design, made according to "IT Nation" practical task.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/simpleSlider/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/simpleSlider" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Portfolio">
+                  <label for="Portfolio" class="summary">
+                    <strong>Portfolio</strong><br>
+                    <em>April 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Landing CV page based on design template with custom design elements and functionality made with "BrainsCloud" YouTube channel.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Portfolio-landing/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Portfolio-landing" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="ActiveBox">
+                  <label for="ActiveBox" class="summary">
+                    <strong>ActiveBox</strong><br>
+                    <em>March 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Landing CV page based on design template with custom design elements and functionality made with "BrainsCloud" YouTube channel.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/activeBox-landing/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/activeBox-landing" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Campp">
+                  <label for="Campp" class="summary">
+                    <strong>Campp</strong><br>
+                    <em>March 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Siple landing as the first step to learn Bootstrap library.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Campp-landing/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Campp-landing" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Piroll">
+                  <label for="Piroll" class="summary">
+                    <strong>Piroll</strong><br>
+                    <em>February 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Landing page with custom design and functionality.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Piroll-landing/index.html" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Piroll-landing" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
+                </li>
+                <li class="details">
+                  <input type="checkbox" id="Mogo">
+                  <label for="Mogo" class="summary">
+                    <strong>Mogo</strong><br>
+                    <em>February 2020</em>
+                  </label>
+                  <div>
+                    <p>
+                      Landing CV page based on design template with custom design elements and functionality made with "BrainsCloud" YouTube channel.
+                    </p>
+                    <strong>
+                      <a href="https://ant-c-tech.github.io/Mogo-landing/" target="_blank" rel="external">
+                        Demo
+                      </a>
+                    </strong>
+                    <strong>
+                      <a href="https://github.com/Ant-C-tech/Mogo-landing" target="_blank" rel="external">
+                        Code base
+                      </a>
+                    </strong>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -232,6 +710,56 @@
                   <span class="nowrap">JAVASCRIPT ES6+</span> jQUERY REACT FIREBASE
                   <span class="nowrap">REST API</span>
                 </p>
+              </section>
+              <section>
+                <h3>Higher Education</h3>
+                <ul class="timeline">
+                  <li>
+                    <p>
+                      <em>September 2000 &ndash; June 2005</em>
+                    </p>
+                    <p>
+                      <strong>Physics teacher</strong> at
+                      <strong>
+                        <a href="http://www.slavdpu.dn.ua/" rel="external">
+                          State Higher Educational Institution Donbass State Teachers' Training
+                          University (DSTTU)
+                        </a>
+                      </strong>
+                    </p>
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <h3>Web Development Education</h3>
+                <ul class="timeline">
+                  <li>
+                    <p>
+                      <em>November 2020 &ndash; Present</em>
+                    </p>
+                    <p>
+                      <strong>Kottans Frontend 2021</strong> at
+                      <strong>
+                        <a href="https://kottans.org/" rel="external">
+                          Kottans
+                        </a>
+                      </strong>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <em>April 2020 &ndash; September 2020</em>
+                    </p>
+                    <p>
+                      <strong>Advanced Front-End Web Developer</strong> at
+                      <strong>
+                        <a href="https://itukraine.org.ua/en/start-of-it-nation-an-educational-programme.html" rel="external">
+                          Educational Programme “IT nation”
+                        </a>
+                      </strong>
+                    </p>
+                  </li>
+                </ul>
               </section>
               <section>
                 <h3>Achievements</h3>
